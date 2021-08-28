@@ -1,0 +1,174 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+img {
+    max-width: 100%;
+}
+
+.header {
+    background: #101446;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+
+.logo img {
+    width: 120px;
+    padding: 16px;
+}
+
+.primary-menu ul {
+    margin: 0;
+    text-align: right;
+}
+
+.primary-menu ul li {
+    display: inline-block;
+    padding: 20px;
+    cursor: pointer;
+
+}
+
+.primary-menu ul li a {
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    line-height: 46px;
+    position: relative;
+}
+
+.primary-menu ul li a::before {
+    content: "";
+    position: absolute;
+    left: auto;
+    right: 0;
+    top: 85%;
+    width: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, red, rgb(238, 255, 0));
+    transition: 0.5s;
+}
+
+.primary-menu ul li:hover a::before {
+    left: 0;
+    right: auto;
+    width: 100%;
+}
+
+/* slider-section */
+
+
+
+.slider {
+    color: #fff;
+    background-image: url(./img/intro-bg.jpg);
+    padding: 250px 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+
+.slider::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .6);
+    z-index: -1;
+}
+
+
+.slider-text {}
+
+.slider-text h2 {
+    margin-top: 79px;
+    margin-bottom: 50px;
+}
+
+.slider-text p {}
+
+.slider-text a {
+    background: #337ab7 !important;
+}
+
+/* teem-section */
+
+.teem {
+    background: #bac1f3;
+    padding: 80px 0px;
+}
+
+.temm-text h1 {
+    font-size: 52px;
+    margin-bottom: 52px;
+}
+
+.team-box {}
+
+.team-box img {}
+
+.team-box h4 {
+    font-size: 20px;
+    margin-top: 9px;
+}
+
+.team-box p {
+    width: 57%;
+    margin: auto;
+}
+
+.team-box .just-btn {
+    text-decoration: none;
+    color: #fff;
+    background: #337ab7;
+    padding: 9px 16px;
+    border-radius: 6px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+
+/* about-section */
+
+.about{
+    padding: 100px 0px;
+    background: #c2d4ea;
+}
+
+.abut-text h1{text-align: center;margin-bottom: 50px;}
+.ar{margin-left: 42px;}
+.al{}
+.al img{margin-bottom: 25px;}
+.al p{width: 222%;}
+
+.contact-form .wid{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.forme{}
+.forme p{}
+
+.ar h2{}
+.ar p{}
+.ar h4{}
+
+.contact {
+	padding: 63px 0px;
+	background: #f5f5f5;
+}
+
+.con h1{
+    font-weight:600;
+}
